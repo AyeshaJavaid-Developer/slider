@@ -12,7 +12,7 @@
 - [License](#license)
 
 ## Demo
-- [View Demo](#) (Provide a live demo link if available)
+- [View Demo](#) 
 
 ## Features
 - Responsive design for various screen sizes.
@@ -26,3 +26,18 @@ To get started, follow these steps:
    ```sh
    git clone https://github.com/AyeshaJavaid-Developer/slider
    cd slider
+
+## Customization
+You can customize the slider by modifying the JavaScript initialization code. Adjust the settings to match your requirements. Refer to the Slick slider documentation for more customization options: Slick slider documentation
+
+## Contributing
+If you want to contribute to this project, follow these steps:
+
+1. Fork the project.
+2. Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name
+3. Commit your changes: git commit -m 'Add new feature'
+4. Push to your branch: git push origin feature/your-feature-name
+5. Create a pull request in this repository.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
