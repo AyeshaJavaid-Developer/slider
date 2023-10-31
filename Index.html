@@ -6,6 +6,18 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
     <title>Slider</title>
+    <style>
+        .slick-prev {
+            left: 30px;
+            font-size: medium;
+            z-index: 2;
+        }
+        .slick-next {
+            right: 25px;
+            font-size: medium;
+            z-index: 2;
+        }
+    </style>
 </head>
 <body>
     <div class="slider">
@@ -28,10 +40,12 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="display: block;">Previous</button>
+    <button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;">Next</button>
 
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick-carousal-1.8.1.min.js"></script>
 
     <script type="text/javascript">
         $(document).ready(function(){
